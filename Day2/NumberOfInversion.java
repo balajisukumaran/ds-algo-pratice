@@ -43,8 +43,7 @@ public class NumberOfInversion {
         return count; 
     } 
 	public  long Merge(int []arr,int l,int m,int r){
-	          int[] left = Arrays.copyOfRange(arr, l, m + 1); 
-  
+	    int[] left = Arrays.copyOfRange(arr, l, m + 1); 
         // Right subarray 
         int[] right = Arrays.copyOfRange(arr, m + 1, r + 1); 
   
